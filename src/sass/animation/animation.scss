@@ -1,0 +1,68 @@
+//
+// animation
+//
+@import '../colors';
+
+.ani-border-bottom {
+  content: "";
+  display: block;
+  animation-name: border-bottom-animation;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+@keyframes border-bottom-animation {
+  0% {
+    background-color: $color-white;
+    height: 1px;
+    margin: 0px auto;
+    width: 0%;
+  }
+  100% {
+    background-color: $color-white;
+    height: 1px;
+    margin: 0px auto;
+    width: 100%;
+  }
+}
+.ani-rock {
+  animation-name: rock-animation;
+  animation-duration: 1s;
+  // animation-timing-function: cubic-bezier(.17,.67,.83,.67);
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rock-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.ani-shake {
+  animation-name: shake-animation;
+  animation-duration: 0.2s;
+  animation-iteration-count: 4;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes shake-animation {
+  0% {
+    transform: translateX(0deg);
+  }
+  50% {
+    transform: translateX(-1rem);
+  }
+  100% {
+    transform: translateX(0rem);
+  }
+}

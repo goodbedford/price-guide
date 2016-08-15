@@ -9,10 +9,35 @@
 
 html {
   font-size: 62.5%;
+  min-width: 30rem;
+
 }
 body {
   color: $color-dark;
   font-size: $font-size-md;
   margin: 0;
   padding: 0;
+}
+
+.bg-main {
+  background-color: $color-white;
+  background-size: 450px 450px;
+  min-height: 100vh;
+}
+footer {
+  background-color: $color-gray-dark;
+  color: $color-white;
+  padding: 1rem;
+  text-align: center;
+}
+.footer__text {
+  padding: 1rem;
+}
+header {
+  background-color: $color-gray-dark;
+  color: $color-white;
+  text-align: center;
+}
+body {
+  font-family: 'Dosis', sans-serif;
 }

@@ -2,6 +2,11 @@
 @import 'base';
 @import 'colors';
 @import 'fonts';
+@import 'animation/animation';
+@import 'layout.scss';
 
 
 @import 'components/button';
+@import 'components/menu';
+@import 'components/product';
+@import 'components/service';

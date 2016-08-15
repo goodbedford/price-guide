@@ -2,21 +2,162 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>gulp-seed</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./dist/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>gulp-seed</title>
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./dist/main.css">
 </head>
 
 <body>
-  <h1>goodbedford</h1>
-  <p>Hi every body</p>
-  <a href="#" class="btn">click</a>
+  <div class="container-fluid bg-main">
+    <div class="row">
+      <div class="col-xs-12">
+        <header class="row">
+          <div class="col-xs-12">
+            <nav class="menu">
+              <div class="menu__logo-container menu__logo-container--left">
+                <div class="menu__logo">
+                  <div class="menu__logo--octo">
+                    <img src="https://s3.amazonaws.com/gb-project-photos/cats/cat1-min.jpg" class="menu__logo__img">
+                  </div>
+                </div>
+                <div class="menu__logo-text">Mysite</div>
+              </div>
+              <!--end menu logo-container -->
+              <div class="menu__logo-container menu__logo-container--right">
+                <a href="#product" class="menu__link">price</a>
+                <a href="#services" class="menu__link">services</a>
+                <a href="#contact" class="menu__link">contact</a>
+              </div>
+            </nav>
+            <!--         <h3>MySite</h1>
+        <h4>Sub heading</h3> -->
+          </div>
+        </header>
+        <!-- end header -->
+        <div id="product" class="main-container row">
+          <div class="product">
+            <div class="product__header">
+              <div class="product__title">Basic</div>
+              <div class="product__price">$25</div>
+              <a href="#" class="product__btn">select</a>
+            </div>
+            <div class="product__list">
+              <div class="product__list__item">
+                <i class="product__list__icon fa fa-check-circle-o" aria-hidden="true"></i>
+                <span class="product__list__feature">feature1</span>
+              </div>
+              <div class="product__list__item">
+                <i class="product__list__icon fa fa-check-circle-o" aria-hidden="true"></i>
+                <span class="product__list__feature">feature1</span>
+              </div>
+              <div class="product__list__item">
+                <i class="product__list__icon fa fa-check-circle-o" aria-hidden="true"></i>
+                <span class="product__list__feature">feature1</span>
+              </div>
+              <div class="product__list__item">
+                <i class="product__list__icon fa fa-check-circle-o" aria-hidden="true"></i>
+                <span class="product__list__feature">feature1</span>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__header">
+              <div class="product__title">Standard</div>
+              <div class="product__price">$50</div>
+              <a href="" class="product__btn">select</a>
+            </div>
+            <div class="product__list">
+              <div class="product__list__item">
+                <i class="product__list__icon fa fa-check-circle-o" aria-hidden="true"></i>
+                <span class="product__list__feature">feature1</span>
+              </div>
+              <div class="product__list__item">
+                <i class="product__list__icon fa fa-check-circle-o" aria-hidden="true"></i>
+                <span class="product__list__feature">feature1</span>
+              </div>
+              <div class="product__list__item">
+                <i class="product__list__icon fa fa-check-circle-o" aria-hidden="true"></i>
+                <span class="product__list__feature">feature1</span>
+              </div>
+              <div class="product__list__item">
+                <i class="product__list__icon fa fa-check-circle-o" aria-hidden="true"></i>
+                <span class="product__list__feature">feature1</span>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__header">
+              <div class="product__title">Pro</div>
+              <div class="product__price">$75</div>
+              <a href="" class="product__btn">select</a>
+            </div>
+            <div class="product__list">
+              <div class="product__list__item">
+                <i class="product__list__icon fa fa-check-circle-o" aria-hidden="true"></i>
+                <span class="product__list__feature">feature1</span>
+              </div>
+              <div class="product__list__item">
+                <i class="product__list__icon fa fa-check-circle-o" aria-hidden="true"></i>
+                <span class="product__list__feature">feature1</span>
+              </div>
+              <div class="product__list__item">
+                <i class="product__list__icon fa fa-check-circle-o" aria-hidden="true"></i>
+                <span class="product__list__feature">feature1</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- end main-container-->
+        <div id="services" class="services row">
+          <div class="service">
+            <div class="service__img-container">
+              <i class="fa fa-users" aria-hidden="true"></i>
+            </div>
+            <div class="service__title">Service Titles</div>
+            <div class="service__text">service descriptionsservice descriptionsservice descriptionsservice descriptionsservice descriptionsservice descriptionsservice descriptions service descriptions</div>
+          </div>
+          <!-- end service -->
+          <div class="service">
+            <div class="service__img-container">
+              <i class="fa fa-globe" aria-hidden="true"></i>
+            </div>
+            <div class="service__title">Service Titles</div>
+            <div class="service__text">service descriptions service descriptionsservice descriptionsservice descriptions service description sservice descriptions service descriptions</div>
+          </div>
+          <!-- end service -->
+          <div class="service">
+            <div class="service__img-container">
+              <i class="fa fa-comment-o" aria-hidden="true"></i>
+            </div>
+            <div class="service__title">Service Titles</div>
+            <div class="service__text">service descriptions service descriptionsservice descriptions service description service </div>
+          </div>
+          <!-- end service -->
+        </div>
+      </div>
+      <!-- end main col -->
+    </div>
+    <!-- end row -->
+    <div class="row">
+      <div class="col-xs-12">
+        <footer id="contact">
+          <div class="footer__text">
+            We look forward to you.
+          </div>
+          <a href="#" class="product__btn">Find Out More</a>
+        </footer>
+      </div>
+    </div>
+  </div>
+  <!--end container -->
   <script src="http://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="dist/app.js"></script>
+  <script src="dist/bundle.js"></script>
 </body>
 
 </html>

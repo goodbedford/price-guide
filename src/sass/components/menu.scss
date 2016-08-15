@@ -1,0 +1,58 @@
+//
+// menu component
+//
+@import '../colors';
+@import '../mixins/button';
+
+.menu {
+  align-items: center;
+  background-color: $color-gray-dark;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+}
+.menu__link {
+  @include default-link;
+}
+.menu__link:hover {
+  @include default-link-hover;
+}
+/*.menu__link:hover:after {
+  background-color: $color-white;
+  content: "";
+  display: block;
+  position: relative;
+  animation-name: border-bottom-animation;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+*/
+.menu__logo-container {
+  align-items: center;
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.menu__logo-container--right {
+}
+.menu__logo {
+  // flex: 0 0 auto;
+  // border: 1px solid black;
+  font-size: 1.6rem;
+  overflow: hidden;
+  margin: 0 1rem;
+  width: 4rem;
+}
+.menu__logo--octo {
+  overflow:auto;
+  transform: rotate(45deg);
+}
+.menu__logo__img {
+  width: 100%;
+  overflow: hidden;
+  transform: scale(2) rotate(-45deg);
+}
+.menu__logo-text {
+  font-size: 1.6rem;
+}
