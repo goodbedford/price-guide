@@ -2,8 +2,7 @@
   box-sizing: border-box; }
 
 html {
-  font-size: 62.5%;
-  min-width: 30rem; }
+  font-size: 62.5%; }
 
 body {
   color: #401919;
@@ -13,7 +12,6 @@ body {
 
 .bg-main {
   background-color: white;
-  background-size: 450px 450px;
   min-height: 100vh; }
 
 footer {
@@ -87,7 +85,8 @@ body {
 .main-container {
   background-color: rgba(255, 255, 255, 0.2);
   display: block;
-  margin-bottom: 5rem; }
+  margin-bottom: 5rem;
+  min-width: 300px; }
 
 @media screen and (min-width: 640px) {
   .main-container {
@@ -127,7 +126,7 @@ body {
   border: 1px solid transparent;
   color: white;
   font-size: 1.6rem;
-  margin: 0rem 1rem;
+  margin: 0rem 0.5rem;
   min-width: 4rem;
   padding: 0.5rem;
   text-decoration: none;
@@ -137,17 +136,6 @@ body {
   color: white;
   text-decoration: none; }
 
-/*.menu__link:hover:after {
-  background-color: $color-white;
-  content: "";
-  display: block;
-  position: relative;
-  animation-name: border-bottom-animation;
-  animation-duration: 0.3s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-}
-*/
 .menu__logo-container {
   -ms-flex-align: center;
   align-items: center;
@@ -250,6 +238,8 @@ body {
   background: linear-gradient(90deg, rgba(0, 255, 0, 0.1) 50%, rgba(128, 0, 128, 0.2) 50%);
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-flex-pack: distribute;
   justify-content: space-around; }
 
@@ -273,6 +263,9 @@ body {
   padding: 1rem; }
 
 @media screen and (min-width: 640px) {
+  .services {
+    -ms-flex-direction: row;
+    flex-direction: row; }
   .service {
     display: inline-block;
     width: calc(33.33% - 2.3rem); } }

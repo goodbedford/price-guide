@@ -9,8 +9,6 @@
 
 html {
   font-size: 62.5%;
-  min-width: 30rem;
-
 }
 body {
   color: $color-dark;
@@ -21,7 +19,6 @@ body {
 
 .bg-main {
   background-color: $color-white;
-  background-size: 450px 450px;
   min-height: 100vh;
 }
 footer {

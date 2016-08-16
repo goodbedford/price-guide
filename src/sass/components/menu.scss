@@ -3,7 +3,7 @@
 //
 @import '../colors';
 @import '../mixins/button';
-
+@import '../mixins/link';
 .menu {
   align-items: center;
   background-color: $color-gray-dark;
@@ -17,17 +17,7 @@
 .menu__link:hover {
   @include default-link-hover;
 }
-/*.menu__link:hover:after {
-  background-color: $color-white;
-  content: "";
-  display: block;
-  position: relative;
-  animation-name: border-bottom-animation;
-  animation-duration: 0.3s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-}
-*/
+
 .menu__logo-container {
   align-items: center;
   flex: 0 1 auto;

@@ -1,3 +1,7 @@
+//
+// mixins button
+//
+
 @import '../fonts';
 
 @mixin btn-default {
@@ -13,19 +17,5 @@
 }
 
 @mixin btn-default-hover {
-  text-decoration: none;
-}
-@mixin default-link {
-  border: 1px solid transparent;
-  color: $color-white;
-  font-size: 1.6rem;
-  margin: 0rem 1rem;
-  min-width: 4rem;
-  padding: 0.5rem;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-@mixin default-link-hover {
-  color: $color-white;
   text-decoration: none;
 }
