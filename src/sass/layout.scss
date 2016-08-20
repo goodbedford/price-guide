@@ -1,15 +1,14 @@
 @import 'colors';
-
 .main-container {
   background-color: rgba( $color-white, 0.2);
-  display: block;
-  margin-bottom: 5rem;
-  min-width: 300px;
+  display         : block;
+  margin-bottom   : 5rem;
+  min-width       : 300px;
 }
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 698px) {
   .main-container {
     // align-items: flex-start;
-    padding: 0rem 1rem;
+    padding: 0 1rem;
     display: flex;
   }
 }
