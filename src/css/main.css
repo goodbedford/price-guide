@@ -90,7 +90,7 @@ body {
 
 @media screen and (min-width: 698px) {
   .main-container {
-    padding: 0rem 1rem;
+    padding: 0 1rem;
     display: flex; } }
 
 .btn {
